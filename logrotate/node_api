@@ -1,0 +1,8 @@
+/data/logs/zymk_api_out.log {
+  daily
+  rotate 15
+  missingok
+  copytruncate
+  compress
+  delaycompress
+}

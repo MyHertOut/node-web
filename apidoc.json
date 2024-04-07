@@ -1,0 +1,19 @@
+{
+    "name": "apidoc",
+    "version": "1.0.0",
+    "description": "apidoc - 接口文档",
+    "title": "apis - 接口文档",
+    "url": "",
+    "header": {
+        "title": "API基本说明",
+        "filename": "documents/api_header.md"
+    },
+    "footer": {
+        "title": "footer",
+        "filename": "documents/api_footer.md"
+    },
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}

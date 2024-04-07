@@ -1,0 +1,12 @@
+{
+    "name": "zymk-api",
+    "script": "./bin/www",
+    "exec_mode": "cluster",
+    "instances":"8",
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "merge_logs":true,
+    "error_file":"/data/logs/zymk_api_err.log",
+    "out_file":"/data/logs/zymk_api_out.log"
+}
