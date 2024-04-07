@@ -46,12 +46,12 @@ module.exports = {
 
         // 多库连接
         clients: {
-            // test: {
-            //     user: 'test',
-            //     password: 'test123',
-            //     host: '127.0.0.1',
-            //     database: 'test'
-            // }
+            test: {
+                user: 'root',
+                password: 'root',
+                host: '127.0.0.1',
+                database: 'test'
+            }
         },
 
         // clients 默认配置,继承此项
